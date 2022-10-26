@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Palatiw Child Devs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/content.css">
+
+    <link rel="icon" href="../img/S-Logo.png">
+   
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md bg-white sticky-top px-md-3 px-lg-5">
+        <div class="container-fluid">
+        <span class="text-center-sm text-start-md"></span>  <a class="navbar-brand " href="#"><img src="../img/S-Logo.png" alt="S-Logo" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon" height="12" width="12" ></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item px-lg-1">
+                    <a class="nav-link " id="Homeb" onclick="myhomeB()" >HOME</a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <span class="nav-link" id="Annb" onclick="myAnnB()">ANNOUNCEMENTS</span>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a class="nav-link " id="Abtb" onclick="myAbtB()">ABOUT</a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a  class="nav-link" id="Regb" href="../html/register.html">REGISTER</a>
+                  </li>                       
+                <a class="btn btn-primary rounded-pill px-lg-4 mt-0"  href="../html/parent_log.html" >LOGIN</a>      
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid home">
+      <div class="container">
+        <h5>Pasig City</h5>
+        <h1>PALATIW</h1>
+        <h4>Child Develoment Center</h4>
+        <h3>Enrollment going for S.Y 2022-2023</h3>
+        <button class="btn">REGISTERS</button>
+      </div>
+    </div>
+
+    
+    <div class="container-fluid AnnouncementContainer ">
+      <div class="row row-cols-lg-2">
+        <div class="col col-12 col-lg-6 img">
+         
+        </div>
+        <div class="col col-12 col-lg-6 content">
+            <h1 class="text-center">Announcements</h1>
+            <h5 class="text-end">Title</h5>
+          
+            <div class="container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi tempora fugit excepturi dolore sequi beatae porro, corporis veritatis. Vero perferendis repudiandae nisi atque placeat optio error porro voluptatum dolor?</p>
+  
+            </div>
+          </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid oabt">
+     
+      <div class="container about">
+        
+        <div class="row row-cols-2 ">
+          <h1 class="text-center display-1 text-black col-12">About.</h1>
+          <div class="col Obj" id="Obj">
+            <h1 class="text-end">Objectives</h1>
+            <div class="Obj-Content">
+            <p>1. Physical Development.</p>
+            <p>2. Development of Personal Abilities.</p>
+            <p>3. Ability to handle human relation.</p>
+            <p>4. Development of creative and analytical ability.</p>
+            <p>5. Development of spiritual and social values.</p>
+            <p>6. Provision of comfort and safety.</p>
+            </div>
+          </div>
+          <div class="col His" id="His">
+            <h1>History</h1>
+          </div>
+          <div class="col Vis" id="Vis">
+            <h1 class="text-end">Vision</h1>
+            <div class="vis-content">
+              <p>VISION - A leading preschool working under the relief that foundation on early education is essential in developing their potentials towards a well-rounded child life-long learner.
+              </p>
+            </div>
+          </div>
+          <div class="col Mis" id="Mis">
+            <h1>Mission</h1>
+            <div class="mis-content">
+              <p>MISSION - To provide real life experiences, to develop positive attitude, problem solving skills and love for learning. To provide holistic programs and services and to promote rights of the child through cooperate and collaborative deliver of service on health, nutrition, early education and social development. 
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer >
+      <div class="container-fluid border border-white">
+            <div class="row fcol">
+              <div class="col Rs">
+                 <h3 class="title">Reach Us</h3>
+                 <p>BARANGAY PALATIW</p>
+                 <p>Caruncho Avenue, Palatiw, Pasig City</p>
+                 <br>
+                 <p>Barangay Hall Contact Number(s):</p>
+                 <p>+632 640-3323, +632 747-1546</p>
+              </div>
+              <div class="col">
+     
+               <ul class=" list-unstyle">
+                <h3>SITEMAP</h3>
+                 <li onclick="myhomeB()">HOME</li> 
+                 <li onclick="myAnnB()">ANNOUNCEMENTS</li>
+                 <li onclick="myAbtB()">ABOUT</li>
+                 <li><a href="../html/register.html" class="nav-link"> REGISTER</a></li>            
+                 <li>LOGIN</li>
+               </ul>
+              </div>
+              <div class="col-12 text-end ">
+                <p>Contact the Developers  </p>
+              </div>
+              <hr>
+            </div>
+            <div class="row Scol">
+              <div class="col-12"><a href="#" class="text-white text-decoration-none">Terms and Conditions</a>&nbsp;<span>|</span> &nbsp;<a href="#" class="text-white text-decoration-none">Privacy Policy</a></div>
+              <div class="col-4"><p>ⓒ 2022 Palatiw CDC. All Rights Reserved.</p></div>
+              <div class="col-4 text-center ver"><p>System Version 2.0</p></div>
+              <div class="col-4 text-end"><p>Developed by</p><span>Llego, Mabilangan, Campomanes</span></div>
+            </div>
+      </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/about.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-top: 25vh;
+  height: auto;
+}
+.container .title {
+  margin-bottom: 15%;
+}

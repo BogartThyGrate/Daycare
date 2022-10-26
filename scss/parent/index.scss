@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Questrial&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: auto;
+
+    .navbar{
+            background-color: #95E988;
+
+    }
+}
+
+.sidenav{
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #61C98B;
+    overflow-x: hidden;
+
+    ul{
+        list-style-type: none;
+    }
+
+        .mynav{
+          padding-top: 20vh;
+            li{
+
+                a{
+                    text-decoration: none;
+                    color: white;
+
+                    .row{
+                        margin-top: 5vh;                  
+                    }
+
+                    svg{
+                        
+                        height: 30px;
+                    }
+                   
+                    .col-8{
+                        span{
+                            display: none;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+        .exit{
+            margin-top: 25vh;
+              li{
+  
+                  a{
+                      text-decoration: none;
+                      color: white;
+  
+  
+                      svg{
+                          height: 30px;
+                      }
+                      span{
+                        display: none;
+                    }
+                  }
+              }
+          }
+          
+    
+}
+main{
+    margin-left: 100px;
+}

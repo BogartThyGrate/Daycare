@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Questrial&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: auto;
+}
+header .navbar {
+  background-color: #95E988;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #61C98B;
+  overflow-x: hidden;
+}
+.sidenav ul {
+  list-style-type: none;
+}
+.sidenav .mynav {
+  padding-top: 20vh;
+}
+.sidenav .mynav li a {
+  text-decoration: none;
+  color: white;
+}
+.sidenav .mynav li a .row {
+  margin-top: 5vh;
+}
+.sidenav .mynav li a svg {
+  height: 30px;
+}
+.sidenav .mynav li a .col-8 span {
+  display: none;
+}
+.sidenav .exit {
+  margin-top: 25vh;
+}
+.sidenav .exit li a {
+  text-decoration: none;
+  color: white;
+}
+.sidenav .exit li a svg {
+  height: 30px;
+}
+.sidenav .exit li a span {
+  display: none;
+}
+
+main {
+  margin-left: 100px;
+}

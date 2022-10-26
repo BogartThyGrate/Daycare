@@ -1,0 +1,189 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Questrial&display=swap');
+
+
+header{
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index: 1;
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                img{
+                    height: 60px;
+                }
+            }
+        
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        font-size: 1rem;
+                        font-family: 'Questrial', sans-serif;
+                    }
+                    .nav-link:hover{
+                        color: black;
+                    }
+                }
+            }
+            .btn{
+                font-size: 1rem;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+            }
+        }
+        }
+    }
+}
+@include media-breakpoint-up(sm) { 
+    header{
+        .navbar{
+            .container-fluid{
+                .navbar-brand{
+                    img{
+                        height: 60px;
+                    }
+                }
+            
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 16px;
+                            font-family: 'Questrial', sans-serif;
+                        }
+                    }
+                }
+                .btn{
+                    font-size: 16spx;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    padding-top: 7px;
+                }
+            }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(md) { 
+    header{
+        .navbar{
+            .container-fluid{
+                .navbar-brand{
+                    img{
+                        height: 70px;
+                    }
+                }
+            
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 16px;
+                            font-family: 'Questrial', sans-serif;
+                        }
+                    }
+                }
+                .btn{
+                    font-size: 16spx;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    padding-top: 7px;
+                }
+            }
+            }
+        }
+    }
+ }
+@include media-breakpoint-up(lg) { 
+    header{
+        .navbar{
+            .container-fluid{
+                .navbar-brand{
+                    img{
+                        height: 80px;
+                    }
+                }
+            
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 16px;
+                            font-family: 'Questrial', sans-serif;
+                        }
+                    }
+                }
+                .btn{
+                    font-size: 16spx;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    padding-top: 7px;
+                }
+            }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(xl) { 
+    header{
+        .navbar{
+            .container-fluid{
+                .navbar-brand{
+                    img{
+                        height: 90px;
+                    }
+                }
+            
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 17px;
+                            font-family: 'Questrial', sans-serif;
+                        }
+                    }
+                }
+                .btn{
+                    font-size: 17px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    padding-top: 7px;
+                }
+            }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(xxl) { 
+    header{
+        .navbar{
+            .container-fluid{
+                .navbar-brand{
+                    img{
+                        height: 95px;
+                    }
+                }
+            
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 20px;
+                            font-family: 'Questrial', sans-serif;
+                        }
+                    }
+                }
+                .btn{
+                    font-size: 20px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                }
+            }
+            }
+        }
+    }
+}

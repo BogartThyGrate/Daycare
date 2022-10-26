@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="icon" href="../img/S-Logo.png">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header>
+        <nav class="navbar navbar-expand-md bg-white sticky-top px-md-3 px-lg-5">
+          <div class="container-fluid">
+          <span class="text-center-sm text-start-md"></span>  <a class="navbar-brand " href="#"><img src="../img/S-Logo.png" alt="S-Logo" ></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                  <span class="navbar-toggler-icon" height="12" width="12" ></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item px-lg-1">
+                      <a class="nav-link " id="Homeb" href="../html/home.html" >HOME</a>
+                    </li>
+                    <li class="nav-item px-lg-1">
+                      <a class="nav-link" id="Annb" href="../html/home.html" >ANNOUNCEMENTS</a>
+                    </li>
+                    <li class="nav-item px-lg-1">
+                      <a class="nav-link " id="Abtb" href="../html/home.html" >ABOUT</a>
+                    </li>
+                    <li class="nav-item px-lg-1">
+                      <a  class="nav-link" id="Regb" href="../html/register.html">REGISTER</a>
+                    </li>                       
+                  <a class="btn btn-primary rounded-pill px-lg-4 mt-0" href="../html/parent_log.html"  >LOGIN</a>      
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="row row-cols-2 ">
+            
+            <div class="col col1 px-0">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active fst">
+                      <h1 class="text-center "> 1</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis iusto dolores in? Sunt odio veniam, accusamus quod ullam eaque placeat eligendi maxime velit! Voluptate nobis neque assumenda nulla? Qui, quod.</p>
+                  </div>
+                  <div class="carousel-item snd">
+                    <h1 class="text-center "> 2</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis iusto dolores in? Sunt odio veniam, accusamus quod ullam eaque placeat eligendi maxime velit! Voluptate nobis neque assumenda nulla? Qui, quod.</p>
+                  
+                  </div>
+                  <div class="carousel-item thrd" >
+                    <h1 class="text-center "> 3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis iusto dolores in? Sunt odio veniam, accusamus quod ullam eaque placeat eligendi maxime velit! Voluptate nobis neque assumenda nulla? Qui, quod.</p>
+                
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>  
+            </div>
+            <div class="col col2">
+                <h1 class="text-center">REGISTER</h1>
+                <p class="text-center">Enrollment going on for S.Y. 2022 - 2023</p>
+                
+                <div class="row row-cols-1">
+                  <form action="">
+                    <div class="row row-cols-2">
+                      <div class="col">
+                          <div class="form-floating">
+                            <input type="text" name="Fname" id="Fname" class="form-control" placeholder="First Name" autocomplete="off">
+                            <label for="Fname">First name</label>
+                          </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-floating">
+                          <input type="text" name="Lname" id="Lname" class="form-control" placeholder="Last Name" autocomplete="off">
+                          <label for="Lname">Last Name</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="form-floating">
+                        <input type="text" name="Uname" id="Uname" class="form-control" placeholder="UserName" autocomplete="off">
+                        <label for="Uname">Username</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-floating">
+                        <input type="password" name="pass" id="pass" class="form-control" placeholder="Password" autocomplete="off">
+                        <label for="pass">Password</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-floating">
+                        <input type="password" name="Cpass" id="Cpass" class="form-control" placeholder="Confirm Password" autocomplete="off">
+                        <label for="Cpass">Confirm Password</label>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="form-floating">
+                        <input type="email" name="Uemail" id="Uemail" class="form-control" placeholder="Email" autocomplete="off">
+                        <label for="Uemail">Email</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-floating">
+                        <input type="number" name="Unum" id="Unum" class="form-control" placeholder="Contact Number" autocomplete="off" inputmode="numeric">
+                        <label for="Unum">Contact Number</label>
+                      </div>
+                    </div>
+
+                    <div class="col text-center">
+                      <button class="btn text-center">SUBMIT</button>
+                    </div>
+                  </form>
+                </div>
+            
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

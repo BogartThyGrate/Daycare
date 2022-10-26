@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Questrial&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: auto;
+    .container{
+        height: auto;
+        margin-top: 5vh;
+
+        .row{
+            height: auto;
+         
+            .col{
+            
+                margin-left: 0;
+                margin-top: 0;
+                height: auto;
+                
+            }
+
+
+            .col1{
+                color: white;
+                .fst{
+                    background-color:#25C2B9;
+                }
+                .snd{
+                    background-color: #E12836;
+                }
+                .thrd{
+                    background-color: #2ECC71;
+                }
+    
+            .carousel-item{
+                height: 700px;
+                z-index: 0;
+
+                
+                  h1{
+                    margin-top: 30%;        
+                    font-size: 70px;
+                    }
+                  p{
+                    width: 24vw;
+                    margin-left: auto;
+                    margin-right: auto;
+                    }
+              
+              }
+            
+            }
+        
+            .col2{
+            background-color: #0A5CA7;
+            
+                h1{
+                    margin-top: 4vh;
+                    font-size: 48px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 20px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                }
+                h1,p{
+                    color: white;
+
+                }
+                .col{
+                    margin-top: 2%;
+                    input{
+                        border-radius: 20px;
+                        border: 1px solid black;
+            
+                    }
+                    label{
+                        color: gray;
+                        font-size: 20px;
+                        font-family: 'Poppins', sans-serif;
+
+                    }
+                }
+                .btn{
+                    background-color: #F3821A;
+                    color: white;
+                    font-size: 32px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    border-radius: 30px;
+                    width: 263px;
+                }
+            }
+           
+        
+
+        }
+    }
+}
+
+
+
+

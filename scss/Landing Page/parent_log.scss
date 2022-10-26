@@ -1,0 +1,59 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Questrial&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    zoom: 1;
+}
+main{
+    border: 1px solid black;
+    height: auto;
+    background: linear-gradient(to top right, #34c7db 0%, #266daf 100%);
+
+
+    .container{
+            background-color: #ffffffff;
+            margin-top: 2%;
+            width: 600px;
+            height: auto;
+            padding: 3vw;
+            margin-bottom: 10vh;
+
+                .row{
+                    height: auto;
+
+                    h4{
+                        font-size:2
+                    }
+         
+                    .usr{
+                            input{
+                                height: 6vh;
+                                padding-left:20px;
+                                border:1px solid black;
+                            }
+                            
+
+                        .btn{
+                            background-color: #4BE348;
+                            font-size: 2rem;
+                            font-weight: 700;
+                            color: white;
+                            
+                        }
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    
+                }
+    }
+}
